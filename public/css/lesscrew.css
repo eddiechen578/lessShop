@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top {background:transparent;}
+#menu {
+background:transparent;
+border-top:1px solid #000;
+border-bottom:1px solid #000;
+border-radius:0;
+}
+#menu .nav > li > a {color:black;}
+#menu .nav > li > a:hover, #menu .nav > li.open > a {color:#999;
+background:transparent;}
+#top #currency .currency-select:hover {background:black;}
+#menu #category {color:#000;text-shadow:none;font-family:'微軟正黑體';}
+
+/* cart */
+#cart > .btn {
+color:black;background:
+transparent;border:1px solid;
+border-radius:0;}
+#cart.open > .btn {border:1px solid #add;}
+/* search */
+#search .input-lg {border:1px solid;border-right:0;border-radius:0;}
+#search span.input-group-btn button.btn.btn-default.btn-lg {padding:7px 8px;border:1px solid;border-radius:0;border-left:0;}
+
+.dropdown-menu li > a:hover {background:black}
+
+#menu {margin-bottom:30px;}
+
+
+/*排序、數量*/
+select.form-control,input#input-search {border-radius:0;border-color:#333;color:#000;}
+
+/*中間最低高度*/
+#content {min-height:440px;}
+
+/*分類頁-圖片下方留白*/
+#content .row .col-sm-12 {margin-bottom:30px;}
+
+/* 內頁 標題 */
+.productName {margin-bottom:5%;}
+/* 內頁 按鈕*/
+.radio label {padding:2px 13px;border-color:#666;}
+.radio input[type="radio"]:checked+label {padding:2px 13px;}
+#product .radio label {margin:0 10px 0 0;}
+#product label.control-label {letter-spacing:1px;}
+#product .form-group.required .radio {margin-bottom:8px;}/* 顏色尺寸 */
+/*#content.col-sm-10 p+.row { margin:30px 0;}*/
+
+/*footer*/
+footer {color:black;background:white;
+border-top:1px solid #000;}
+footer h5 {color:black;font-family:'微軟正黑體';font-size:14px;}
+footer a {color:#666;line-height:21px;letter-spacing:1px;}
+footer a:hover {color:#999;}
+
+
+
+/* -------------------	關閉  -------------------	 */
+
+/* menu麵包削-隱藏 */
+.breadcrumb {display:none;}
+
+/* 商品備忘錄-隱藏 */
+.button-group {display:none;}
+#compare-total {display:none;}
+
+
+/*關閉 比較、收藏icon*/
+.container.product .btn-group {display:none;}
+
+/* menu-left-隱藏*/
+#column-left:before {display:none;}
+.list-group a.active {color:black;font-weight:bold;}
